@@ -45,21 +45,21 @@ To run this project, you need the following:
 #### 2. Set Up Microsoft SQL Server:
 -> Install Microsoft SQL Server 2014 and configure the database. <br>
 -> When launching Microsoft SQL Server 2014, ensure you connect to the server with the following details: <br>
-	-> Server Type: Database Engine <br>
-	-> Server Name: localhost <br>
--> Import the provided backup file "DataBase.bacpac" (Databases -> Import Data-tier app -> Select file). <br>
+	&emsp;-> **Server Type**: Database Engine <br>
+	&emsp;-> **Server Name**: localhost <br>
+-> Import the provided backup file **"DataBase.bacpac"** (Databases -> Import Data-tier app -> Select file). <br>
 
 #### 3. Download the Project Files:
--> Clone the project files folder ("database" folder) and place it in the htdocs folder inside your XAMPP installation directory. <br>
+-> Clone the project files folder (**"database" folder**) and place it in the **htdocs** folder inside your XAMPP installation directory. <br>
 
 #### 4. Configure the PHP Files if needed:
 -> Database credentials in the PHP files are set to localhost, change if you want to. <br>
 
 #### 5. Access the Application:
--> Open your web browser and go to http://localhost/database/home.html. <br>
+-> Open your web browser and go to **http://localhost/database/home.html**. <br>
 -> From the home page, you can navigate to other sections and interact with the database through various tabs. <br>
 
 #### 6. Admin Panel Access:
-->To perform administrative operations (adding, modifying, deleting data), go to the administratorBD tab. <br>
--> Enter the default password (1234) to access the Admin Panel. <br>
+->To perform administrative operations (adding, modifying, deleting data), go to the **administratorBD** tab. <br>
+-> Enter the default password (**1234**) to access the Admin Panel. <br>
 -> Once authenticated, you can manage database entries directly from the web interface.
