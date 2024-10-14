@@ -7,7 +7,7 @@ This project is an application for managing information related to a **modeling 
 -> All changes made to the database (insert, update, or delete operations) via the web interface are immediately reflected in the Microsoft SQL Server database. <br>
 -> Similarly, any direct changes in the Microsoft SQL Server database are instantly updated in the web interface, ensuring both ends are always in sync. <br>
 #### Admin Panel for Controlled Access:
-->The application includes an exclusive Admin Panel for performing core database operations (adding, deleting, and modifying data). <br>
+-> The application includes an exclusive Admin Panel for performing core database operations (adding, deleting, and modifying data). <br>
 -> Admin access is granted through the "AdministratorBD" tab, where you must enter the password to unlock administrative functions.
 #### Relational Database Structure:
 -> The database is designed with multiple related tables to demonstrate a real-world database structure. <br>
@@ -57,6 +57,6 @@ To run this project, you need the following:
 -> From the home page, you can navigate to other sections and interact with the database through various tabs. <br>
 
 #### 5. Admin Panel Access:
-->To perform administrative operations (adding, modifying, deleting data), go to the **administratorBD** tab. <br>
+-> To perform administrative operations (adding, modifying, deleting data), go to the **administratorBD** tab. <br>
 -> Enter the default password (**1234**) to access the Admin Panel. <br>
 -> Once authenticated, you can manage database entries directly from the web interface.
